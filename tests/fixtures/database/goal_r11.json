@@ -1,0 +1,918 @@
+[
+ {
+  "ID": 35,
+  "Name": "AC_total_scan_time",
+  "NameText": "",
+  "Value": 10.307,
+  "Properties": {
+   "Type": "Float",
+   "Groups": [
+    0,
+    1
+   ],
+   "EnumDescription": 0
+  }
+ },
+ {
+  "ID": 1320,
+  "Name": "EX_ACQ_imaging_sequence",
+  "NameText": "EX_ACQ_imaging_sequence",
+  "Value": 3,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    47,
+    48,
+    234,
+    237,
+    238,
+    239,
+    240,
+    241,
+    245,
+    252
+   ],
+   "EnumDescription": 144
+  }
+ },
+ {
+  "ID": 1452,
+  "Name": "EX_CARD_device",
+  "NameText": "EX_CARD_device",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    61,
+    64,
+    65,
+    67,
+    234,
+    237,
+    240,
+    241,
+    248,
+    252,
+    253
+   ],
+   "EnumDescription": 175
+  }
+ },
+ {
+  "ID": 1670,
+  "Name": "EX_GEO_patient_orientation",
+  "NameText": "EX_GEO_patient_orientation",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    60,
+    61,
+    91,
+    93,
+    97,
+    234,
+    235,
+    236,
+    240,
+    241,
+    242,
+    249,
+    252,
+    262
+   ],
+   "EnumDescription": 172
+  }
+ },
+ {
+  "ID": 1671,
+  "Name": "EX_GEO_patient_position",
+  "NameText": "EX_GEO_patient_position",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    60,
+    61,
+    91,
+    93,
+    97,
+    234,
+    235,
+    236,
+    240,
+    241,
+    242,
+    249,
+    252,
+    262
+   ],
+   "EnumDescription": 171
+  }
+ },
+ {
+  "ID": 1674,
+  "Name": "EX_GEO_rect_fov_perc",
+  "NameText": "EX_GEO_rect_fov_perc",
+  "Value": 100,
+  "Properties": {
+   "Type": "Float",
+   "Groups": [
+    91,
+    93,
+    97,
+    234,
+    240,
+    241,
+    242,
+    246,
+    252,
+    262
+   ],
+   "EnumDescription": 0
+  }
+ },
+ {
+  "ID": 1761,
+  "Name": "EX_PC_angio_mode",
+  "NameText": "EX_PC_angio_mode",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    124,
+    125,
+    234,
+    240,
+    241,
+    252,
+    259
+   ],
+   "EnumDescription": 221
+  }
+ },
+ {
+  "ID": 2920,
+  "Name": "HW_main_magnetic_field_mT",
+  "NameText": "HW_main_magnetic_field_mT",
+  "Value": 1500,
+  "Properties": {
+   "Type": "Int",
+   "Groups": [
+    271
+   ],
+   "EnumDescription": 0
+  }
+ },
+ {
+  "ID": 3561,
+  "Name": "MPF_RFE_rf_spoil_mode",
+  "NameText": "",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    306,
+    318
+   ],
+   "EnumDescription": 1
+  }
+ },
+ {
+  "ID": 4238,
+  "Name": "PS_volume_ap_angulations",
+  "NameText": "",
+  "Value": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "Properties": {
+   "Type": "Float",
+   "Groups": [
+    350,
+    351,
+    355
+   ],
+   "EnumDescription": 0
+  }
+ },
+ {
+  "ID": 4239,
+  "Name": "PS_volume_ap_fovs",
+  "NameText": "",
+  "Value": [
+   110.65789,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "Properties": {
+   "Type": "Float",
+   "Groups": [
+    350,
+    351,
+    355
+   ],
+   "EnumDescription": 0
+  }
+ },
+ {
+  "ID": 4240,
+  "Name": "PS_volume_ap_offcentres",
+  "NameText": "",
+  "Value": [
+   12.704353,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "Properties": {
+   "Type": "Float",
+   "Groups": [
+    350,
+    351,
+    355
+   ],
+   "EnumDescription": 0
+  }
+ },
+ {
+  "ID": 4241,
+  "Name": "PS_volume_fh_angulations",
+  "NameText": "",
+  "Value": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "Properties": {
+   "Type": "Float",
+   "Groups": [
+    350,
+    351,
+    355
+   ],
+   "EnumDescription": 0
+  }
+ },
+ {
+  "ID": 4242,
+  "Name": "PS_volume_fh_fovs",
+  "NameText": "",
+  "Value": [
+   122.105255,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "Properties": {
+   "Type": "Float",
+   "Groups": [
+    350,
+    351,
+    355
+   ],
+   "EnumDescription": 0
+  }
+ },
+ {
+  "ID": 4243,
+  "Name": "PS_volume_fh_offcentres",
+  "NameText": "",
+  "Value": [
+   9.104278,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "Properties": {
+   "Type": "Float",
+   "Groups": [
+    350,
+    351,
+    355
+   ],
+   "EnumDescription": 0
+  }
+ },
+ {
+  "ID": 4247,
+  "Name": "PS_volume_rl_angulations",
+  "NameText": "",
+  "Value": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "Properties": {
+   "Type": "Float",
+   "Groups": [
+    350,
+    351,
+    355
+   ],
+   "EnumDescription": 0
+  }
+ },
+ {
+  "ID": 4248,
+  "Name": "PS_volume_rl_fovs",
+  "NameText": "",
+  "Value": [
+   149.34212,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "Properties": {
+   "Type": "Float",
+   "Groups": [
+    350,
+    351,
+    355
+   ],
+   "EnumDescription": 0
+  }
+ },
+ {
+  "ID": 4249,
+  "Name": "PS_volume_rl_offcentres",
+  "NameText": "",
+  "Value": [
+   18.143488,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "Properties": {
+   "Type": "Float",
+   "Groups": [
+    350,
+    351,
+    355
+   ],
+   "EnumDescription": 0
+  }
+ },
+ {
+  "ID": 4318,
+  "Name": "RC_chemical_shifts",
+  "NameText": "",
+  "Value": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "Properties": {
+   "Type": "Float",
+   "Groups": [
+    356
+   ],
+   "EnumDescription": 0
+  }
+ },
+ {
+  "ID": 4641,
+  "Name": "RC_k_space_traj_type",
+  "NameText": "",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    356
+   ],
+   "EnumDescription": 351
+  }
+ },
+ {
+  "ID": 4825,
+  "Name": "RC_quad_receive_coils",
+  "NameText": "",
+  "Value": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    356
+   ],
+   "EnumDescription": 1
+  }
+ },
+ {
+  "ID": 4826,
+  "Name": "RC_receive_coil_types",
+  "NameText": "",
+  "Value": [
+   3,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    356
+   ],
+   "EnumDescription": 334
+  }
+ },
+ {
+  "ID": 5145,
+  "Name": "VAL00_DEF_elliptical_k_space_shutter",
+  "NameText": "",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    371,
+    372
+   ],
+   "EnumDescription": 1
+  }
+ },
+ {
+  "ID": 5225,
+  "Name": "VAL01_ACQ_fast_imaging_mode",
+  "NameText": "",
+  "Value": 2,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    386,
+    387
+   ],
+   "EnumDescription": 137
+  }
+ },
+ {
+  "ID": 5240,
+  "Name": "VAL01_ACQ_imaging_sequence",
+  "NameText": "",
+  "Value": 3,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    386,
+    387
+   ],
+   "EnumDescription": 144
+  }
+ },
+ {
+  "ID": 5249,
+  "Name": "VAL01_ACQ_kt_factor",
+  "NameText": "",
+  "Value": 1,
+  "Properties": {
+   "Type": "Int",
+   "Groups": [
+    386,
+    387
+   ],
+   "EnumDescription": 0
+  }
+ },
+ {
+  "ID": 5309,
+  "Name": "VAL01_ACQ_scan_mode",
+  "NameText": "",
+  "Value": 5,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    386,
+    387
+   ],
+   "EnumDescription": 155
+  }
+ },
+ {
+  "ID": 5312,
+  "Name": "VAL01_ACQ_scan_type",
+  "NameText": "",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    386,
+    387
+   ],
+   "EnumDescription": 156
+  }
+ },
+ {
+  "ID": 5322,
+  "Name": "VAL01_ACQ_tfe_excitations",
+  "NameText": "",
+  "Value": 1,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    386,
+    387
+   ],
+   "EnumDescription": 1
+  }
+ },
+ {
+  "ID": 5395,
+  "Name": "VAL01_CARD_synchronisation",
+  "NameText": "",
+  "Value": 3,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    394,
+    395
+   ],
+   "EnumDescription": 179
+  }
+ },
+ {
+  "ID": 5438,
+  "Name": "VAL01_DIFF_nr_directions",
+  "NameText": "",
+  "Value": 1,
+  "Properties": {
+   "Type": "Int",
+   "Groups": [
+    400,
+    401
+   ],
+   "EnumDescription": 0
+  }
+ },
+ {
+  "ID": 5505,
+  "Name": "VAL01_FFE_contrast_enh",
+  "NameText": "",
+  "Value": 3,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    406,
+    407
+   ],
+   "EnumDescription": 201
+  }
+ },
+ {
+  "ID": 5512,
+  "Name": "VAL01_FFE_outer_profile_orders",
+  "NameText": "",
+  "Value": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    406,
+    407
+   ],
+   "EnumDescription": 79
+  }
+ },
+ {
+  "ID": 5589,
+  "Name": "VAL01_GEO_sense_enable",
+  "NameText": "",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    410,
+    411
+   ],
+   "EnumDescription": 1
+  }
+ },
+ {
+  "ID": 5623,
+  "Name": "VAL01_MTC_enable",
+  "NameText": "",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    420,
+    421
+   ],
+   "EnumDescription": 220
+  }
+ },
+ {
+  "ID": 5629,
+  "Name": "VAL01_MTC_sos",
+  "NameText": "",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    420,
+    421
+   ],
+   "EnumDescription": 1
+  }
+ },
+ {
+  "ID": 5807,
+  "Name": "VAL01_RFE_outer_profile_orders",
+  "NameText": "",
+  "Value": [
+   10,
+   10
+  ],
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    438,
+    439
+   ],
+   "EnumDescription": 79
+  }
+ },
+ {
+  "ID": 5887,
+  "Name": "VAL01_SPIR_enable",
+  "NameText": "",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    442,
+    445
+   ],
+   "EnumDescription": 1
+  }
+ },
+ {
+  "ID": 5891,
+  "Name": "VAL01_SPIR_mode",
+  "NameText": "",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    442,
+    445
+   ],
+   "EnumDescription": 274
+  }
+ },
+ {
+  "ID": 5897,
+  "Name": "VAL01_SPIR_suppr_tissue",
+  "NameText": "",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    442,
+    445
+   ],
+   "EnumDescription": 388
+  }
+ },
+ {
+  "ID": 5917,
+  "Name": "VAL01_SPY_decouple",
+  "NameText": "",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    446,
+    447
+   ],
+   "EnumDescription": 282
+  }
+ },
+ {
+  "ID": 5977,
+  "Name": "VAL01_T2PREP_enable",
+  "NameText": "",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    450,
+    451
+   ],
+   "EnumDescription": 1
+  }
+ },
+ {
+  "ID": 5980,
+  "Name": "VAL01_TAG_ctagging",
+  "NameText": "",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    397,
+    452
+   ],
+   "EnumDescription": 184
+  }
+ },
+ {
+  "ID": 5983,
+  "Name": "VAL01_TAG_dimension",
+  "NameText": "",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    397,
+    452
+   ],
+   "EnumDescription": 183
+  }
+ },
+ {
+  "ID": 5998,
+  "Name": "VAL01_TFEPP_type",
+  "NameText": "",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    454,
+    455
+   ],
+   "EnumDescription": 298
+  }
+ },
+ {
+  "ID": 6027,
+  "Name": "VAL01_WATSUP_in_base",
+  "NameText": "",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    462,
+    464
+   ],
+   "EnumDescription": 302
+  }
+ },
+ {
+  "ID": 6039,
+  "Name": "VAL01_WATSUP_method",
+  "NameText": "",
+  "Value": 0,
+  "Properties": {
+   "Type": "Enum",
+   "Groups": [
+    462,
+    464
+   ],
+   "EnumDescription": 304
+  }
+ },
+ {
+  "ID": 6546,
+  "Name": "VW_prepulse_delay",
+  "NameText": "",
+  "Value": 0,
+  "Properties": {
+   "Type": "Float",
+   "Groups": [
+    600,
+    601
+   ],
+   "EnumDescription": 0
+  }
+ }
+]

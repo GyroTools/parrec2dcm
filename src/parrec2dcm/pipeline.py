@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Literal
 
 from parrec2dcm.database.format_detect import DatabaseTier, detect_database_tier
+from parrec2dcm.database.goal_params import goal_derived_tags
 from parrec2dcm.database.new_format import ResolvedTag, new_format_tags
 from parrec2dcm.database.old_format_map import old_format_tags
 from parrec2dcm.database.records import ParameterPool, load_parameter_pool
@@ -103,6 +104,15 @@ def convert(
     elif tier is DatabaseTier.OLD:
         db_tags = old_format_tags(pool)
         db_tags = _apply_db_identifier_overrides(identifiers, db_tags, randomize_uids)
+        # Goal-parameter enrichment is appended, not merged into the
+        # override step above: it never carries identifier tags, and
+        # applying it after old_format_tags (last-applied-wins, see
+        # dataset_builder._apply_resolved_tags) matches the real
+        # exporter's own order (DB values first, then goal-parameter
+        # derivations, which can and do override same-address DB values)
+        # -- see goal_params.py's module docstring for why this is
+        # REL5/REL53-only, never REL11/new-format.
+        db_tags = db_tags + goal_derived_tags(pool)
 
     static_tags = static_tags_from_parfile(par)
     diffusion_enabled = bool(par.get("Diffusion"))
