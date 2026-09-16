@@ -7,12 +7,12 @@ writing.
 
 from __future__ import annotations
 
-import warnings
 from pathlib import Path
 from typing import Literal
 
 from parrec2dcm.database.format_detect import DatabaseTier, detect_database_tier
 from parrec2dcm.database.new_format import ResolvedTag, new_format_tags
+from parrec2dcm.database.old_format_map import old_format_tags
 from parrec2dcm.database.records import ParameterPool, load_parameter_pool
 from parrec2dcm.dataset_builder import build_classic_dataset
 from parrec2dcm.diffusion import diffusion_tags
@@ -101,12 +101,8 @@ def convert(
         db_tags = new_format_tags(pool)
         db_tags = _apply_db_identifier_overrides(identifiers, db_tags, randomize_uids)
     elif tier is DatabaseTier.OLD:
-        warnings.warn(
-            "Old-format database parameters were detected but are not yet "
-            "supported -- proceeding with PAR-only tags. See the project plan's "
-            "v3 stage.",
-            stacklevel=2,
-        )
+        db_tags = old_format_tags(pool)
+        db_tags = _apply_db_identifier_overrides(identifiers, db_tags, randomize_uids)
 
     static_tags = static_tags_from_parfile(par)
     diffusion_enabled = bool(par.get("Diffusion"))

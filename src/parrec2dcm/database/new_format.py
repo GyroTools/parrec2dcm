@@ -207,15 +207,21 @@ def _coerce_scalar(vr: str, value: Any) -> Any | None:
 _MULTIVALUE_NUMERIC_VRS = _INT_VR_RANGES.keys() | _FLOAT_VRS | {"DS", "IS"}
 
 
-def _coerce_value(vr: str, value: Any) -> Any | None:
+def coerce_value(vr: str, value: Any) -> Any | None:
     """Coerce a JSON-sourced value to what its VR needs for valid DICOM writing.
 
     Returns ``None`` (meaning: drop this tag) if coercion, range, or
     format validation fails -- never writes a value known to violate its
     VR's format, and never truncates an oversized value (which could
     silently corrupt e.g. a UID). Handles bracketed multi-value list
-    strings for numeric VRs by coercing each component individually.
+    strings for numeric VRs by coercing each component individually, and a
+    genuine Python list (any VR -- old_format_map.py's multi-source
+    entries, e.g. ``ChemicalShiftReference0``/``1`` combined into one
+    2-component DS value) the same way, component-by-component.
     """
+    if isinstance(value, list):
+        coerced_list = [_coerce_scalar(vr, v) for v in value]
+        return None if any(c is None for c in coerced_list) else coerced_list
     if vr in _MULTIVALUE_NUMERIC_VRS and isinstance(value, str):
         match = _BRACKETED_LIST_RE.match(value.strip())
         if match:
@@ -288,7 +294,7 @@ class ResolvedTag:
 # reporting "1" despite 20 real cardiac-phase temporal positions, which
 # is exactly the kind of DB-side data-quality gap this tag is meant to
 # describe, not something we should defer to over our own computed count).
-_ALWAYS_EXCLUDED_TAGS = {
+ALWAYS_EXCLUDED_TAGS = {
     (0x0008, 0x0016),  # SOPClassUID
     (0x0008, 0x0018),  # SOPInstanceUID
     (0x0020, 0x0105),  # NumberOfTemporalPositions
@@ -300,7 +306,7 @@ def new_format_tags(pool: ParameterPool) -> list[ResolvedTag]:
 
     Records without a `tag_<hex8>`-shaped name (e.g. bookkeeping fields
     like ``RFR_STUDY_uid``) are skipped, as are tags with no resolvable VR.
-    Group 0x0002 (File Meta Information) and ``_ALWAYS_EXCLUDED_TAGS`` are
+    Group 0x0002 (File Meta Information) and ``ALWAYS_EXCLUDED_TAGS`` are
     also skipped -- see their own comments for why.
     """
     resolved: list[ResolvedTag] = []
@@ -312,12 +318,12 @@ def new_format_tags(pool: ParameterPool) -> list[ResolvedTag]:
         if tag is None:
             continue
         group, element = tag
-        if group == 0x0002 or tag in _ALWAYS_EXCLUDED_TAGS:
+        if group == 0x0002 or tag in ALWAYS_EXCLUDED_TAGS:
             continue
         vr = resolve_vr(group, element, record)
         if vr is None:
             continue
-        value = _coerce_value(vr, record.get("Value"))
+        value = coerce_value(vr, record.get("Value"))
         if value is None:
             continue
         resolved.append(ResolvedTag(group, element, vr, value))
