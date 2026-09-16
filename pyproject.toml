@@ -1,0 +1,71 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "parrec2dcm"
+version = "0.1.0"
+description = "Convert Philips PAR/REC files to DICOM"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.9"
+authors = [
+    { name = "Martin Buehrer", email = "martin.buehrer@gyrotools.com" },
+]
+keywords = ["philips", "parrec", "par/rec", "dicom", "mri", "medical imaging"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Healthcare Industry",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=1.23",
+    "pydicom>=2.4",
+    "parrec-reader-py==0.2.0",
+    "highdicom>=0.28,<0.29",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov",
+    "ruff",
+    "mypy",
+    "build",
+    "twine",
+]
+
+[project.urls]
+Homepage = "https://github.com/gyrotools/parrec2dcm"
+Repository = "https://github.com/gyrotools/parrec2dcm"
+Issues = "https://github.com/gyrotools/parrec2dcm/issues"
+
+[project.scripts]
+parrec2dcm = "parrec2dcm.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/parrec2dcm"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.mypy]
+python_version = "3.12"
+ignore_missing_imports = true

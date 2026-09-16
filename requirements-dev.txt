@@ -1,0 +1,9 @@
+# Development/test dependencies. Kept in sync with [project.optional-dependencies.dev]
+# in pyproject.toml, which is the source of truth.
+-r requirements.txt
+pytest>=7.0
+pytest-cov
+ruff
+mypy
+build
+twine

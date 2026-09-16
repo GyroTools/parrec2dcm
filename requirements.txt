@@ -1,0 +1,7 @@
+# Runtime dependencies. Kept in sync with [project.dependencies] in pyproject.toml,
+# which is the source of truth (this file is for `pip install -r requirements.txt`
+# workflows that don't do an editable/project install).
+numpy>=1.23
+pydicom>=2.4
+parrec-reader-py==0.2.0
+highdicom>=0.28,<0.29

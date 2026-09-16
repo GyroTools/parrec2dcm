@@ -1,0 +1,6170 @@
+[
+    {
+        "ID": 500011,
+        "Name": "RFR_ECSERIES_BinaryLength",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Int"
+        },
+        "Value": 102
+    },
+    {
+        "ID": 500021,
+        "Name": "RFR_ECSERIES_DICOM_BODY_PART_EXAMINED",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 500034,
+        "Name": "RFR_ECSERIES_DICOM_CLINICAL_TRIAL_COORDINATING_CENTER_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 500065,
+        "Name": "RFR_ECSERIES_DICOM_CONVERSION_TYPE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 500035,
+        "Name": "RFR_ECSERIES_DICOM_DATE_OF_LAST_CALIBRATION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 500036,
+        "Name": "RFR_ECSERIES_DICOM_DEVICE_SERIAL_NUMBER",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "00074"
+    },
+    {
+        "ID": 500066,
+        "Name": "RFR_ECSERIES_DICOM_DIGITAL_IMAGE_FORMAT_ACQUIRED",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 500039,
+        "Name": "RFR_ECSERIES_DICOM_INSTITUTIONAL_DEPARTMENT_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "MR 3T Scanner"
+    },
+    {
+        "ID": 500037,
+        "Name": "RFR_ECSERIES_DICOM_INSTITUTION_ADDRESS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 500038,
+        "Name": "RFR_ECSERIES_DICOM_INSTITUTION_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "Universitaetsspital Zuerich"
+    },
+    {
+        "ID": 500022,
+        "Name": "RFR_ECSERIES_DICOM_LARGEST_PIXEL_VALUE_IN_SERIES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 500023,
+        "Name": "RFR_ECSERIES_DICOM_LARGEST_PIXEL_VALUE_IN_SERIES_Type",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 500024,
+        "Name": "RFR_ECSERIES_DICOM_LATERALITY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 500040,
+        "Name": "RFR_ECSERIES_DICOM_MANUFACTURER",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "Philips Medical Systems"
+    },
+    {
+        "ID": 500041,
+        "Name": "RFR_ECSERIES_DICOM_MANUFACTURERS_MODEL_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "Achieva"
+    },
+    {
+        "ID": 500013,
+        "Name": "RFR_ECSERIES_DICOM_MODALITY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "MR"
+    },
+    {
+        "ID": 500014,
+        "Name": "RFR_ECSERIES_DICOM_NUMBER_OF_SERIES_RELATED_INSTANCES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 500025,
+        "Name": "RFR_ECSERIES_DICOM_OPERATORS_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 500026,
+        "Name": "RFR_ECSERIES_DICOM_PERFORMING_PHYSICIANS_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 500042,
+        "Name": "RFR_ECSERIES_DICOM_PIXEL_PADDING_VALUE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 500043,
+        "Name": "RFR_ECSERIES_DICOM_PIXEL_PADDING_VALUE_Type",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 500064,
+        "Name": "RFR_ECSERIES_DICOM_PRESENTATION_INTENT_TYPE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 500027,
+        "Name": "RFR_ECSERIES_DICOM_PROTOCOL_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "ExamCard"
+    },
+    {
+        "ID": 500067,
+        "Name": "RFR_ECSERIES_DICOM_SECONDARY_CAPTURE_DEVICE_ID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 500068,
+        "Name": "RFR_ECSERIES_DICOM_SECONDARY_CAPTURE_DEVICE_MANUFACTURER",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 500069,
+        "Name": "RFR_ECSERIES_DICOM_SECONDARY_CAPTURE_DEVICE_MANUFACTURERS_MODEL_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 500070,
+        "Name": "RFR_ECSERIES_DICOM_SECONDARY_CAPTURE_DEVICE_SOFTWARE_VERSIONS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 500028,
+        "Name": "RFR_ECSERIES_DICOM_SERIES_DATE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "20200902"
+    },
+    {
+        "ID": 500029,
+        "Name": "RFR_ECSERIES_DICOM_SERIES_DESCRIPTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 500015,
+        "Name": "RFR_ECSERIES_DICOM_SERIES_INSTANCE_UID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "1.3.46.670589.11.74.5.0.93908.2020090212042136000"
+    },
+    {
+        "ID": 500016,
+        "Name": "RFR_ECSERIES_DICOM_SERIES_NUMBER",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 500030,
+        "Name": "RFR_ECSERIES_DICOM_SERIES_TIME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "120421.35"
+    },
+    {
+        "ID": 500031,
+        "Name": "RFR_ECSERIES_DICOM_SMALLEST_PIXEL_VALUE_IN_SERIES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 500032,
+        "Name": "RFR_ECSERIES_DICOM_SMALLEST_PIXEL_VALUE_IN_SERIES_Type",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 500044,
+        "Name": "RFR_ECSERIES_DICOM_SOFTWARE_VERSIONS0",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "5.4.1"
+    },
+    {
+        "ID": 500045,
+        "Name": "RFR_ECSERIES_DICOM_SOFTWARE_VERSIONS1",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 500046,
+        "Name": "RFR_ECSERIES_DICOM_SOFTWARE_VERSIONS2",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 500047,
+        "Name": "RFR_ECSERIES_DICOM_SPATIAL_RESOLUTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 500048,
+        "Name": "RFR_ECSERIES_DICOM_STATION_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "GYRO35"
+    },
+    {
+        "ID": 500049,
+        "Name": "RFR_ECSERIES_DICOM_TIME_OF_LAST_CALIBRATION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 500071,
+        "Name": "RFR_ECSERIES_DICOM_VIDEO_IMAGE_FORMAT_ACQUIRED",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 500005,
+        "Name": "RFR_ECSERIES_FILE_REFERENCE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 500009,
+        "Name": "RFR_ECSERIES_ForeignTags",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "0x5200200040102000"
+    },
+    {
+        "ID": 500004,
+        "Name": "RFR_ECSERIES_LOCKED_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 500002,
+        "Name": "RFR_ECSERIES_OBJECT_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Int"
+        },
+        "Value": 12178
+    },
+    {
+        "ID": 500003,
+        "Name": "RFR_ECSERIES_PARENT_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Int"
+        },
+        "Value": 13829
+    },
+    {
+        "ID": 500050,
+        "Name": "RFR_ECSERIES_PIIM_ANATOMIC_REG_CODE_VALUE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 500053,
+        "Name": "RFR_ECSERIES_PIIM_ARCHIVE_TRANSFER_STATUS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "INITIAL"
+    },
+    {
+        "ID": 500054,
+        "Name": "RFR_ECSERIES_PIIM_AUTO_DELETE_PROTECTED",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 500055,
+        "Name": "RFR_ECSERIES_PIIM_CREATION_TIME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 500061,
+        "Name": "RFR_ECSERIES_PIIM_DATA_DICTIONARY_CONTENTS_VERSION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "datadefs $Revision: 54.0 $"
+    },
+    {
+        "ID": 500056,
+        "Name": "RFR_ECSERIES_PIIM_EXPORT_STATUS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "INITIAL"
+    },
+    {
+        "ID": 500057,
+        "Name": "RFR_ECSERIES_PIIM_LOCAL_MEDIA_WRITE_STATUS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "INITIAL"
+    },
+    {
+        "ID": 500062,
+        "Name": "RFR_ECSERIES_PIIM_MR_NR_OF_SERIES_OPERATORS_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 500063,
+        "Name": "RFR_ECSERIES_PIIM_MR_NR_OF_SOFTWARE_VERSION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 500072,
+        "Name": "RFR_ECSERIES_PIIM_MR_SERIES_ACQUISITION_NUMBER",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 500051,
+        "Name": "RFR_ECSERIES_PIIM_MR_SERIES_IS_SPECTRO",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 500073,
+        "Name": "RFR_ECSERIES_PIIM_MR_SERIES_RECONSTRUCTION_NUMBER",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 500058,
+        "Name": "RFR_ECSERIES_PIIM_PRINT_STATUS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "INITIAL"
+    },
+    {
+        "ID": 500059,
+        "Name": "RFR_ECSERIES_PIIM_REMOTE_ACTIVITY_STATUS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "INITIAL"
+    },
+    {
+        "ID": 500017,
+        "Name": "RFR_ECSERIES_PIIM_SERIES_COMMITTED",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 500018,
+        "Name": "RFR_ECSERIES_PIIM_SERIES_DERIVATION_DESCRIPTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 500019,
+        "Name": "RFR_ECSERIES_PIIM_SERIES_TRANSMITTED",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 500020,
+        "Name": "RFR_ECSERIES_PIIM_SERIES_TYPE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "ECSeries"
+    },
+    {
+        "ID": 500033,
+        "Name": "RFR_ECSERIES_PIIM_SERIES_XRAY_CONTRAST_TRANSFER_TASTE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 500060,
+        "Name": "RFR_ECSERIES_PIIM_STORAGE_COMMIT_STATUS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "INITIAL"
+    },
+    {
+        "ID": 500052,
+        "Name": "RFR_ECSERIES_PIIM_SUITABLE_FOR",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 500000,
+        "Name": "RFR_ECSERIES_Patient_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Int"
+        },
+        "Value": 13829
+    },
+    {
+        "ID": 500007,
+        "Name": "RFR_ECSERIES_ROW_VERSION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "0x0000000000157066"
+    },
+    {
+        "ID": 500012,
+        "Name": "RFR_ECSERIES_StreamedBulkLength",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 500001,
+        "Name": "RFR_ECSERIES_Study_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Int"
+        },
+        "Value": 13829
+    },
+    {
+        "ID": 500008,
+        "Name": "RFR_ECSERIES_TagStorage",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "0x0000000000000000000000000000000000"
+    },
+    {
+        "ID": 500010,
+        "Name": "RFR_ECSERIES_TokenName",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "String"
+        },
+        "Value": "FSM1\\Stream\\30011\\e36c5090-d16e-4498-bba2-146f2ca14d4f.sdo"
+    },
+    {
+        "ID": 500006,
+        "Name": "RFR_ECSERIES_VERSION_PARENT_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                1
+            ],
+            "Type": "Int"
+        },
+        "Value": -1
+    },
+    {
+        "ID": 300010,
+        "Name": "RFR_EXAM_BinaryLength",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "Int"
+        },
+        "Value": 760
+    },
+    {
+        "ID": 300037,
+        "Name": "RFR_EXAM_DICOM_DISTANCE_SOURCE_TO_DETECTOR",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 300038,
+        "Name": "RFR_EXAM_DICOM_DISTANCE_SOURCE_TO_ENTRANCE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 300039,
+        "Name": "RFR_EXAM_DICOM_ENTRANCE_DOSE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 300040,
+        "Name": "RFR_EXAM_DICOM_ENTRANCE_DOSE_IN_MGY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 300041,
+        "Name": "RFR_EXAM_DICOM_EXPOSED_AREA0",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 300042,
+        "Name": "RFR_EXAM_DICOM_EXPOSED_AREA1",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 300043,
+        "Name": "RFR_EXAM_DICOM_IMAGE_AND_FLUOROSCOPY_AREA_DOSE_PRODUCT",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 300012,
+        "Name": "RFR_EXAM_DICOM_PERFORMED_LOCATION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 300013,
+        "Name": "RFR_EXAM_DICOM_PERFORMED_PROCEDURE_STEP_DESCRIPTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 300014,
+        "Name": "RFR_EXAM_DICOM_PERFORMED_PROCEDURE_STEP_END_DATE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "20200902"
+    },
+    {
+        "ID": 300015,
+        "Name": "RFR_EXAM_DICOM_PERFORMED_PROCEDURE_STEP_END_TIME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "120341"
+    },
+    {
+        "ID": 300016,
+        "Name": "RFR_EXAM_DICOM_PERFORMED_PROCEDURE_STEP_ID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "630929021"
+    },
+    {
+        "ID": 300017,
+        "Name": "RFR_EXAM_DICOM_PERFORMED_PROCEDURE_STEP_START_DATE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "20200902"
+    },
+    {
+        "ID": 300018,
+        "Name": "RFR_EXAM_DICOM_PERFORMED_PROCEDURE_STEP_START_TIME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "120341"
+    },
+    {
+        "ID": 300019,
+        "Name": "RFR_EXAM_DICOM_PERFORMED_PROCEDURE_STEP_STATUS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 300020,
+        "Name": "RFR_EXAM_DICOM_PERFORMED_PROCEDURE_TYPE_DESCRIPTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 300021,
+        "Name": "RFR_EXAM_DICOM_PERFORMED_STATION_AE_TITLE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "GYRO35"
+    },
+    {
+        "ID": 300022,
+        "Name": "RFR_EXAM_DICOM_PERFORMED_STATION_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 300044,
+        "Name": "RFR_EXAM_DICOM_TOTAL_NUMBER_OF_EXPOSURES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 300045,
+        "Name": "RFR_EXAM_DICOM_TOTAL_TIME_OF_FLUOROSCOPY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 300004,
+        "Name": "RFR_EXAM_FILE_REFERENCE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 300008,
+        "Name": "RFR_EXAM_ForeignTags",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "0x16000800"
+    },
+    {
+        "ID": 300003,
+        "Name": "RFR_EXAM_LOCKED_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 300001,
+        "Name": "RFR_EXAM_OBJECT_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "Int"
+        },
+        "Value": 13829
+    },
+    {
+        "ID": 300002,
+        "Name": "RFR_EXAM_PARENT_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "Int"
+        },
+        "Value": 13829
+    },
+    {
+        "ID": 300024,
+        "Name": "RFR_EXAM_PIIM_EXAMINATION_SOURCE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "LOCAL"
+    },
+    {
+        "ID": 300023,
+        "Name": "RFR_EXAM_PIIM_EXAM_CARD_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "Recframe Test"
+    },
+    {
+        "ID": 300026,
+        "Name": "RFR_EXAM_PIIM_EXAM_EXPORT_STATUS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "INITIAL"
+    },
+    {
+        "ID": 300027,
+        "Name": "RFR_EXAM_PIIM_EXAM_MEDIA_WRITE_STATUS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "INITIAL"
+    },
+    {
+        "ID": 300028,
+        "Name": "RFR_EXAM_PIIM_EXAM_PRINT_STATUS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "INITIAL"
+    },
+    {
+        "ID": 300029,
+        "Name": "RFR_EXAM_PIIM_EXAM_STORAGE_COMMIT_STATUS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "INITIAL"
+    },
+    {
+        "ID": 300030,
+        "Name": "RFR_EXAM_PIIM_MPPS_REPOSITORY_ID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 300031,
+        "Name": "RFR_EXAM_PIIM_MR_EXAM_DELETE_CHECK",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "0"
+    },
+    {
+        "ID": 300032,
+        "Name": "RFR_EXAM_PIIM_MR_NO_OF_FILM_CONSUMPTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "0"
+    },
+    {
+        "ID": 300033,
+        "Name": "RFR_EXAM_PIIM_MR_NUMBER_OF_CODES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "1"
+    },
+    {
+        "ID": 300034,
+        "Name": "RFR_EXAM_PIIM_MR_NUMBER_OF_REQUEST_EXCERPTS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "0"
+    },
+    {
+        "ID": 300035,
+        "Name": "RFR_EXAM_PIIM_MR_NUMBER_OF_SOP_COMMON",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "1"
+    },
+    {
+        "ID": 300036,
+        "Name": "RFR_EXAM_PIIM_MR_NUMBER_OF_SPS_CODES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "0"
+    },
+    {
+        "ID": 300025,
+        "Name": "RFR_EXAM_PIIM_SUITABLE_FOR_MF_CONVERSION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 300000,
+        "Name": "RFR_EXAM_Patient_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "Int"
+        },
+        "Value": 13829
+    },
+    {
+        "ID": 300006,
+        "Name": "RFR_EXAM_ROW_VERSION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "0x000000000015715B"
+    },
+    {
+        "ID": 300011,
+        "Name": "RFR_EXAM_StreamedBulkLength",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 300007,
+        "Name": "RFR_EXAM_TagStorage",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "0x2000090000000000000000001400"
+    },
+    {
+        "ID": 300009,
+        "Name": "RFR_EXAM_TokenName",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "String"
+        },
+        "Value": "FSM1\\Stream\\30011\\61259e1c-ee40-4c98-b174-879becf0ffa5.sdo"
+    },
+    {
+        "ID": 300005,
+        "Name": "RFR_EXAM_VERSION_PARENT_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                2
+            ],
+            "Type": "Int"
+        },
+        "Value": -1
+    },
+    {
+        "ID": 999999,
+        "Name": "RFR_PATCH_VERSION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                3
+            ],
+            "Type": "Float"
+        },
+        "Value": 3
+    },
+    {
+        "ID": 100009,
+        "Name": "RFR_PATIENT_BinaryLength",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 100023,
+        "Name": "RFR_PATIENT_DICOM_CLINICAL_TRIAL_PROTOCOL_ID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 100024,
+        "Name": "RFR_PATIENT_DICOM_CLINICAL_TRIAL_PROTOCOL_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 100025,
+        "Name": "RFR_PATIENT_DICOM_CLINICAL_TRIAL_SITE_ID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 100026,
+        "Name": "RFR_PATIENT_DICOM_CLINICAL_TRIAL_SITE_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 100027,
+        "Name": "RFR_PATIENT_DICOM_CLINICAL_TRIAL_SPONSOR_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 100028,
+        "Name": "RFR_PATIENT_DICOM_CLINICAL_TRIAL_SUBJECT_ID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 100029,
+        "Name": "RFR_PATIENT_DICOM_CLINICAL_TRIAL_SUBJECT_READING_ID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 100011,
+        "Name": "RFR_PATIENT_DICOM_ETHNIC_GROUP",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 100012,
+        "Name": "RFR_PATIENT_DICOM_ISSUER_OF_PATIENT_ID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 100013,
+        "Name": "RFR_PATIENT_DICOM_NUMBER_OF_PATIENT_RELATED_INSTANCES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 100014,
+        "Name": "RFR_PATIENT_DICOM_NUMBER_OF_PATIENT_RELATED_SERIES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 100015,
+        "Name": "RFR_PATIENT_DICOM_NUMBER_OF_PATIENT_RELATED_STUDIES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 100016,
+        "Name": "RFR_PATIENT_DICOM_OTHER_PATIENT_IDS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 100017,
+        "Name": "RFR_PATIENT_DICOM_OTHER_PATIENT_NAMES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 100018,
+        "Name": "RFR_PATIENT_DICOM_PATIENT_BIRTH_DATE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": "20010101"
+    },
+    {
+        "ID": 100019,
+        "Name": "RFR_PATIENT_DICOM_PATIENT_BIRTH_TIME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 100030,
+        "Name": "RFR_PATIENT_DICOM_PATIENT_COMMENTS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 100020,
+        "Name": "RFR_PATIENT_DICOM_PATIENT_ID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": "mb11111"
+    },
+    {
+        "ID": 100021,
+        "Name": "RFR_PATIENT_DICOM_PATIENT_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": "Recframe"
+    },
+    {
+        "ID": 100022,
+        "Name": "RFR_PATIENT_DICOM_PATIENT_SEX",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": "O"
+    },
+    {
+        "ID": 100003,
+        "Name": "RFR_PATIENT_FILE_REFERENCE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 100007,
+        "Name": "RFR_PATIENT_ForeignTags",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 100002,
+        "Name": "RFR_PATIENT_LOCKED_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 100000,
+        "Name": "RFR_PATIENT_OBJECT_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "Int"
+        },
+        "Value": 13829
+    },
+    {
+        "ID": 100001,
+        "Name": "RFR_PATIENT_PARENT_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 100031,
+        "Name": "RFR_PATIENT_PIIM_MR_NR_OF_PATIENT_OTHER_I_DS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 100005,
+        "Name": "RFR_PATIENT_ROW_VERSION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": "0x0000000000157063"
+    },
+    {
+        "ID": 100010,
+        "Name": "RFR_PATIENT_StreamedBulkLength",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 100006,
+        "Name": "RFR_PATIENT_TagStorage",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 100008,
+        "Name": "RFR_PATIENT_TokenName",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 100004,
+        "Name": "RFR_PATIENT_VERSION_PARENT_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                4
+            ],
+            "Type": "Int"
+        },
+        "Value": -1
+    },
+    {
+        "ID": 600012,
+        "Name": "RFR_SERIESBLOBSET_BinaryLength",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "Int"
+        },
+        "Value": 5259
+    },
+    {
+        "ID": 600015,
+        "Name": "RFR_SERIESBLOBSET_DICOM_INSTANCE_CREATION_DATE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "String"
+        },
+        "Value": "20200902"
+    },
+    {
+        "ID": 600016,
+        "Name": "RFR_SERIESBLOBSET_DICOM_INSTANCE_CREATION_TIME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "String"
+        },
+        "Value": "120855.064"
+    },
+    {
+        "ID": 600017,
+        "Name": "RFR_SERIESBLOBSET_DICOM_INSTANCE_CREATOR_UID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "String"
+        },
+        "Value": "1.3.46.670589.11.89.5"
+    },
+    {
+        "ID": 600018,
+        "Name": "RFR_SERIESBLOBSET_DICOM_SOP_CLASS_UID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "String"
+        },
+        "Value": "1.3.46.670589.11.0.0.12.2"
+    },
+    {
+        "ID": 600014,
+        "Name": "RFR_SERIESBLOBSET_DICOM_SOP_INSTANCE_UID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "String"
+        },
+        "Value": "1.3.46.670589.11.74.5.0.79324.2020090212085506078"
+    },
+    {
+        "ID": 600019,
+        "Name": "RFR_SERIESBLOBSET_DICOM_SPECIFIC_CHARACTER_SET",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "String"
+        },
+        "Value": "ISO_IR 100"
+    },
+    {
+        "ID": 600002,
+        "Name": "RFR_SERIESBLOBSET_Examination_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "Int"
+        },
+        "Value": 13829
+    },
+    {
+        "ID": 600006,
+        "Name": "RFR_SERIESBLOBSET_FILE_REFERENCE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 600010,
+        "Name": "RFR_SERIESBLOBSET_ForeignTags",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "String"
+        },
+        "Value": "0x04140520"
+    },
+    {
+        "ID": 600005,
+        "Name": "RFR_SERIESBLOBSET_LOCKED_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 600003,
+        "Name": "RFR_SERIESBLOBSET_OBJECT_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "Int"
+        },
+        "Value": 62948
+    },
+    {
+        "ID": 600004,
+        "Name": "RFR_SERIESBLOBSET_PARENT_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "Int"
+        },
+        "Value": 61967
+    },
+    {
+        "ID": 600020,
+        "Name": "RFR_SERIESBLOBSET_PIIM_BLOB_FILE_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 600021,
+        "Name": "RFR_SERIESBLOBSET_PIIM_BLOB_IN_FILE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 600022,
+        "Name": "RFR_SERIESBLOBSET_PIIM_BLOB_OFFSET",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 600023,
+        "Name": "RFR_SERIESBLOBSET_PIIM_MR_NR_OF_SPECIFIC_CHARACTER_SET",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 600024,
+        "Name": "RFR_SERIESBLOBSET_PIIM_PARENT_ID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 600025,
+        "Name": "RFR_SERIESBLOBSET_PIIM_PARENT_TYPE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 600000,
+        "Name": "RFR_SERIESBLOBSET_Patient_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "Int"
+        },
+        "Value": 13829
+    },
+    {
+        "ID": 600008,
+        "Name": "RFR_SERIESBLOBSET_ROW_VERSION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "String"
+        },
+        "Value": "0x0000000000157157"
+    },
+    {
+        "ID": 600013,
+        "Name": "RFR_SERIESBLOBSET_StreamedBulkLength",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "Int"
+        },
+        "Value": 574373
+    },
+    {
+        "ID": 600001,
+        "Name": "RFR_SERIESBLOBSET_Study_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "Int"
+        },
+        "Value": 13829
+    },
+    {
+        "ID": 600009,
+        "Name": "RFR_SERIESBLOBSET_TagStorage",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "String"
+        },
+        "Value": "0x0008000080"
+    },
+    {
+        "ID": 600011,
+        "Name": "RFR_SERIESBLOBSET_TokenName",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "String"
+        },
+        "Value": "FSM1\\Stream\\40015\\d7d7e789-f3d1-4024-8d86-bb065d9e25eb.sdo"
+    },
+    {
+        "ID": 600007,
+        "Name": "RFR_SERIESBLOBSET_VERSION_PARENT_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                5
+            ],
+            "Type": "Int"
+        },
+        "Value": -1
+    },
+    {
+        "ID": 400011,
+        "Name": "RFR_SERIES_BinaryLength",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 3768
+    },
+    {
+        "ID": 400062,
+        "Name": "RFR_SERIES_DICOM_ACQUISITION_DATETIME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 400116,
+        "Name": "RFR_SERIES_DICOM_APPLICABLE_SAFETY_STANDARD_AGENCY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "IEC"
+    },
+    {
+        "ID": 400117,
+        "Name": "RFR_SERIES_DICOM_B1RMS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0.87823415
+    },
+    {
+        "ID": 400118,
+        "Name": "RFR_SERIES_DICOM_BULK_MOTION_COMPENSATION_TECHNIQUE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NONE"
+    },
+    {
+        "ID": 400119,
+        "Name": "RFR_SERIES_DICOM_CARDIAC_BEAT_REJECTION_TECHNIQUE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400120,
+        "Name": "RFR_SERIES_DICOM_CARDIAC_SYNCHRONIZATION_TECHNIQUE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NONE"
+    },
+    {
+        "ID": 400121,
+        "Name": "RFR_SERIES_DICOM_CHEMICAL_SHIFT_REFERENCE0",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 4.68
+    },
+    {
+        "ID": 400122,
+        "Name": "RFR_SERIES_DICOM_CHEMICAL_SHIFT_REFERENCE1",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 4.68
+    },
+    {
+        "ID": 400029,
+        "Name": "RFR_SERIES_DICOM_CLINICAL_TRIAL_COORDINATING_CENTER_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 400123,
+        "Name": "RFR_SERIES_DICOM_CODE_MEANING",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400124,
+        "Name": "RFR_SERIES_DICOM_CREATOR_VERSION_UID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "1.3.46.670589.11"
+    },
+    {
+        "ID": 400125,
+        "Name": "RFR_SERIES_DICOM_DATA_REPRESENTATION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400030,
+        "Name": "RFR_SERIES_DICOM_DATE_OF_LAST_CALIBRATION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 400031,
+        "Name": "RFR_SERIES_DICOM_DEVICE_SERIAL_NUMBER",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "00074"
+    },
+    {
+        "ID": 400126,
+        "Name": "RFR_SERIES_DICOM_DE_COUPLING_FREQUENCY0",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400127,
+        "Name": "RFR_SERIES_DICOM_DE_COUPLING_FREQUENCY1",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400128,
+        "Name": "RFR_SERIES_DICOM_DE_COUPLING_METHOD",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400055,
+        "Name": "RFR_SERIES_DICOM_DIGITAL_IMAGE_FORMAT_ACQUIRED",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400129,
+        "Name": "RFR_SERIES_DICOM_FLOW_COMPENSATION_DIRECTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400130,
+        "Name": "RFR_SERIES_DICOM_FRAME_LATERALITY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "U"
+    },
+    {
+        "ID": 400060,
+        "Name": "RFR_SERIES_DICOM_FRAME_OF_REFERENCE_UID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "1.3.46.670589.11.74.5.0.87492.2020090212053884001"
+    },
+    {
+        "ID": 400131,
+        "Name": "RFR_SERIES_DICOM_FREQUENCY_CORRECTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NO"
+    },
+    {
+        "ID": 400132,
+        "Name": "RFR_SERIES_DICOM_GRADIENT_ECHO_TRAIN_LENGTH",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 97
+    },
+    {
+        "ID": 400133,
+        "Name": "RFR_SERIES_DICOM_GRADIENT_OUTPUT",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 69.98224
+    },
+    {
+        "ID": 400134,
+        "Name": "RFR_SERIES_DICOM_GRADIENT_OUTPUT_TYPE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "DB_DT"
+    },
+    {
+        "ID": 400033,
+        "Name": "RFR_SERIES_DICOM_INSTITUTIONAL_DEPARTMENT_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "MR 3T Scanner"
+    },
+    {
+        "ID": 400032,
+        "Name": "RFR_SERIES_DICOM_INSTITUTION_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "Universitaetsspital Zuerich"
+    },
+    {
+        "ID": 400020,
+        "Name": "RFR_SERIES_DICOM_LARGEST_PIXEL_VALUE_IN_SERIES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 400021,
+        "Name": "RFR_SERIES_DICOM_LARGEST_PIXEL_VALUE_IN_SERIES_Type",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400022,
+        "Name": "RFR_SERIES_DICOM_LATERALITY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400135,
+        "Name": "RFR_SERIES_DICOM_LUT_EXPLANATION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 400034,
+        "Name": "RFR_SERIES_DICOM_MANUFACTURER",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "Philips Medical Systems"
+    },
+    {
+        "ID": 400035,
+        "Name": "RFR_SERIES_DICOM_MANUFACTURERS_MODEL_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "Achieva"
+    },
+    {
+        "ID": 400013,
+        "Name": "RFR_SERIES_DICOM_MODALITY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "MR"
+    },
+    {
+        "ID": 400136,
+        "Name": "RFR_SERIES_DICOM_MR_ACQUISITION_FREQUENCY_ENCODING_STEPS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 320
+    },
+    {
+        "ID": 400137,
+        "Name": "RFR_SERIES_DICOM_MR_ACQUISITION_PHASE_ENCODING_STEPS_IN_PLANE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 213
+    },
+    {
+        "ID": 400138,
+        "Name": "RFR_SERIES_DICOM_MR_SPECTROSCOPY_ACQUISITION_TYPE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400063,
+        "Name": "RFR_SERIES_DICOM_NTP_SOURCE_ADDRESS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 400139,
+        "Name": "RFR_SERIES_DICOM_NUMBER_OF_K_SPACE_TRAJECTORIES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 400014,
+        "Name": "RFR_SERIES_DICOM_NUMBER_OF_SERIES_RELATED_INSTANCES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400140,
+        "Name": "RFR_SERIES_DICOM_NUMBER_OF_ZERO_FILLS0",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400141,
+        "Name": "RFR_SERIES_DICOM_NUMBER_OF_ZERO_FILLS1",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400142,
+        "Name": "RFR_SERIES_DICOM_PARALLEL_ACQUISITION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NO"
+    },
+    {
+        "ID": 400143,
+        "Name": "RFR_SERIES_DICOM_PARALLEL_REDUCTION_FACTOR_IN_PLANE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 400144,
+        "Name": "RFR_SERIES_DICOM_PARALLEL_REDUCTION_FACTOR_OUT_OF_PLANE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 400145,
+        "Name": "RFR_SERIES_DICOM_PARALLEL_REDUCTION_FACTOR_SECOND_IN_PLANE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 400146,
+        "Name": "RFR_SERIES_DICOM_PARTIAL_FOURIER",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "YES"
+    },
+    {
+        "ID": 400147,
+        "Name": "RFR_SERIES_DICOM_PARTIAL_FOURIER_DIRECTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "PHASE"
+    },
+    {
+        "ID": 400148,
+        "Name": "RFR_SERIES_DICOM_PIXEL_BANDWIDTH",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 1302.0834
+    },
+    {
+        "ID": 400036,
+        "Name": "RFR_SERIES_DICOM_PIXEL_PADDING_VALUE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 400037,
+        "Name": "RFR_SERIES_DICOM_PIXEL_PADDING_VALUE_Type",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400149,
+        "Name": "RFR_SERIES_DICOM_PIXEL_PRESENTATION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "MONOCHROME"
+    },
+    {
+        "ID": 400061,
+        "Name": "RFR_SERIES_DICOM_POSITION_REFERENCE_INDICATOR",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400023,
+        "Name": "RFR_SERIES_DICOM_PROTOCOL_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "WIP Normal FFE"
+    },
+    {
+        "ID": 400150,
+        "Name": "RFR_SERIES_DICOM_RESPIRATORY_INTERVAL_TIME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400151,
+        "Name": "RFR_SERIES_DICOM_RESPIRATORY_MOTION_COMPENSATION_TECHNIQUE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NONE"
+    },
+    {
+        "ID": 400152,
+        "Name": "RFR_SERIES_DICOM_RESPIRATORY_SIGNAL_SOURCE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NONE"
+    },
+    {
+        "ID": 400153,
+        "Name": "RFR_SERIES_DICOM_RESPIRATORY_TRIGGER_DELAY_TIME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400154,
+        "Name": "RFR_SERIES_DICOM_RESPIRATORY_TRIGGER_DELAY_TRESHOLD",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": "inf"
+    },
+    {
+        "ID": 400155,
+        "Name": "RFR_SERIES_DICOM_RF_ECHO_TRAIN_LENGTH",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400056,
+        "Name": "RFR_SERIES_DICOM_SECONDARY_CAPTURE_DEVICE_ID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400057,
+        "Name": "RFR_SERIES_DICOM_SECONDARY_CAPTURE_DEVICE_MANUFACTURER",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400058,
+        "Name": "RFR_SERIES_DICOM_SECONDARY_CAPTURE_DEVICE_MANUFACTURERS_MODEL_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400059,
+        "Name": "RFR_SERIES_DICOM_SECONDARY_CAPTURE_DEVICE_SOFTWARE_VERSIONS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400156,
+        "Name": "RFR_SERIES_DICOM_SEGMENTED_K_SPACE_TRAVERSAL",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "PARTIAL"
+    },
+    {
+        "ID": 400024,
+        "Name": "RFR_SERIES_DICOM_SERIES_DATE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "20200902"
+    },
+    {
+        "ID": 400025,
+        "Name": "RFR_SERIES_DICOM_SERIES_DESCRIPTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "Normal FFE"
+    },
+    {
+        "ID": 400015,
+        "Name": "RFR_SERIES_DICOM_SERIES_INSTANCE_UID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "1.3.46.670589.11.74.5.0.79324.2020090212083662074"
+    },
+    {
+        "ID": 400016,
+        "Name": "RFR_SERIES_DICOM_SERIES_NUMBER",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 201
+    },
+    {
+        "ID": 400026,
+        "Name": "RFR_SERIES_DICOM_SERIES_TIME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "120836.59000"
+    },
+    {
+        "ID": 400157,
+        "Name": "RFR_SERIES_DICOM_SIGNAL_DOMAIN_COLUMNS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400027,
+        "Name": "RFR_SERIES_DICOM_SMALLEST_PIXEL_VALUE_IN_SERIES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 400028,
+        "Name": "RFR_SERIES_DICOM_SMALLEST_PIXEL_VALUE_IN_SERIES_Type",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400038,
+        "Name": "RFR_SERIES_DICOM_SOFTWARE_VERSIONS0",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "5.4.1"
+    },
+    {
+        "ID": 400039,
+        "Name": "RFR_SERIES_DICOM_SOFTWARE_VERSIONS1",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "5.4.1.1"
+    },
+    {
+        "ID": 400040,
+        "Name": "RFR_SERIES_DICOM_SOFTWARE_VERSIONS2",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 400158,
+        "Name": "RFR_SERIES_DICOM_SPECIFIC_ABSORPTION_RATE_DEFINITION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "IEC_WHOLE_BODY"
+    },
+    {
+        "ID": 400159,
+        "Name": "RFR_SERIES_DICOM_SPECIFIC_ABSORPTION_RATE_VALUE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0.38722876
+    },
+    {
+        "ID": 400041,
+        "Name": "RFR_SERIES_DICOM_STATION_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "GYRO35"
+    },
+    {
+        "ID": 400064,
+        "Name": "RFR_SERIES_DICOM_SYNCHRONIZATION_CHANNEL0",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400065,
+        "Name": "RFR_SERIES_DICOM_SYNCHRONIZATION_CHANNEL1",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400066,
+        "Name": "RFR_SERIES_DICOM_SYNCHRONIZATION_FRAME_OF_REFERENCE_UID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 400160,
+        "Name": "RFR_SERIES_DICOM_TAG_ANGLE_FIRST_AXIS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": "inf"
+    },
+    {
+        "ID": 400161,
+        "Name": "RFR_SERIES_DICOM_TAG_SPACING_FIRST_DIMENSION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": "inf"
+    },
+    {
+        "ID": 400162,
+        "Name": "RFR_SERIES_DICOM_TAG_THICKNESS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400163,
+        "Name": "RFR_SERIES_DICOM_TRANSMIT_COIL_MANUFACTURER_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400164,
+        "Name": "RFR_SERIES_DICOM_TRANSMIT_COIL_TYPE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "BODY"
+    },
+    {
+        "ID": 400067,
+        "Name": "RFR_SERIES_DICOM_TRIGGER_SOURCE_OR_TYPE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 400165,
+        "Name": "RFR_SERIES_DICOM_VELOCITY_ENCODING_DIRECTION0",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400166,
+        "Name": "RFR_SERIES_DICOM_VELOCITY_ENCODING_DIRECTION1",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400167,
+        "Name": "RFR_SERIES_DICOM_VELOCITY_ENCODING_DIRECTION2",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400168,
+        "Name": "RFR_SERIES_DICOM_VELOCITY_ENCODING_MINIMUM_VALUE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400169,
+        "Name": "RFR_SERIES_DICOM_WATER_REFERENCED_PHASE_CORRECTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NO"
+    },
+    {
+        "ID": 400005,
+        "Name": "RFR_SERIES_FILE_REFERENCE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 400009,
+        "Name": "RFR_SERIES_ForeignTags",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "0x1100280093001800940018009100180089001800820018005612052010002800"
+    },
+    {
+        "ID": 400004,
+        "Name": "RFR_SERIES_LOCKED_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400002,
+        "Name": "RFR_SERIES_OBJECT_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 61967
+    },
+    {
+        "ID": 400003,
+        "Name": "RFR_SERIES_PARENT_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 13829
+    },
+    {
+        "ID": 400042,
+        "Name": "RFR_SERIES_PIIM_ANATOMIC_REG_CODE_VALUE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "SRT.T-11102.Optic canal"
+    },
+    {
+        "ID": 400045,
+        "Name": "RFR_SERIES_PIIM_ARCHIVE_TRANSFER_STATUS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "INITIAL"
+    },
+    {
+        "ID": 400046,
+        "Name": "RFR_SERIES_PIIM_AUTO_DELETE_PROTECTED",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 400170,
+        "Name": "RFR_SERIES_PIIM_COLOR_LUT_TYPE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400047,
+        "Name": "RFR_SERIES_PIIM_CREATION_TIME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 400048,
+        "Name": "RFR_SERIES_PIIM_EXPORT_STATUS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "INITIAL"
+    },
+    {
+        "ID": 400049,
+        "Name": "RFR_SERIES_PIIM_LOCAL_MEDIA_WRITE_STATUS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "INITIAL"
+    },
+    {
+        "ID": 400171,
+        "Name": "RFR_SERIES_PIIM_MF_CONV_TREAT_SPECTOR_MIX_NO",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 2147483647
+    },
+    {
+        "ID": 400260,
+        "Name": "RFR_SERIES_PIIM_MRPPGPPU_GATING",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400261,
+        "Name": "RFR_SERIES_PIIM_MRRR_INTERVALS_DISTRIBUTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400172,
+        "Name": "RFR_SERIES_PIIM_MR_CARDIAC_GATING",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400173,
+        "Name": "RFR_SERIES_PIIM_MR_FAT_SATURATION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400174,
+        "Name": "RFR_SERIES_PIIM_MR_FAT_SATURATION_TECHNIQUE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400175,
+        "Name": "RFR_SERIES_PIIM_MR_FLOW_COMPENSATION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400176,
+        "Name": "RFR_SERIES_PIIM_MR_FOURIER_INTERPOLATION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400177,
+        "Name": "RFR_SERIES_PIIM_MR_GEOLINK_ID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400178,
+        "Name": "RFR_SERIES_PIIM_MR_HARDCOPY_PROTOCOL",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400180,
+        "Name": "RFR_SERIES_PIIM_MR_INVERSE_RECONSTRUCTED",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400179,
+        "Name": "RFR_SERIES_PIIM_MR_IN_PLANE_TRANSFORMS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 400181,
+        "Name": "RFR_SERIES_PIIM_MR_IS_COCA",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400182,
+        "Name": "RFR_SERIES_PIIM_MR_IS_COIL_SURVEY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400183,
+        "Name": "RFR_SERIES_PIIM_MR_LABEL_SYNTAX",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400185,
+        "Name": "RFR_SERIES_PIIM_MR_MAGNETI_PREPARED",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400184,
+        "Name": "RFR_SERIES_PIIM_MR_MAGNET_TRANSFER_CONST",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400186,
+        "Name": "RFR_SERIES_PIIM_MR_MEASUREMENT_SCAN_RESOLUTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 320
+    },
+    {
+        "ID": 400187,
+        "Name": "RFR_SERIES_PIIM_MR_NO_MIXES_SPECTRO",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400053,
+        "Name": "RFR_SERIES_PIIM_MR_NR_OF_SERIES_OPERATORS_NAME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400054,
+        "Name": "RFR_SERIES_PIIM_MR_NR_OF_SOFTWARE_VERSION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 2
+    },
+    {
+        "ID": 400188,
+        "Name": "RFR_SERIES_PIIM_MR_NUMBER_OF_GEOMETRY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400189,
+        "Name": "RFR_SERIES_PIIM_MR_NUMBER_OF_MIXES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 400190,
+        "Name": "RFR_SERIES_PIIM_MR_NUMBER_OF_REFERENCES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400191,
+        "Name": "RFR_SERIES_PIIM_MR_NUMBER_OF_RR_INTERVAL_RANGES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 400192,
+        "Name": "RFR_SERIES_PIIM_MR_NUMBER_OF_SLABS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400193,
+        "Name": "RFR_SERIES_PIIM_MR_NUMBER_OF_SPECTRA_ACQUIRED",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400194,
+        "Name": "RFR_SERIES_PIIM_MR_NUMBER_OF_VOLUMES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 400195,
+        "Name": "RFR_SERIES_PIIM_MR_OVER_SAMPLEING_PHASE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400196,
+        "Name": "RFR_SERIES_PIIM_MR_PACKAGE_MODE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "MAXIMUM"
+    },
+    {
+        "ID": 400197,
+        "Name": "RFR_SERIES_PIIM_MR_PARTIAL_FOURIER_FREQUENCY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400198,
+        "Name": "RFR_SERIES_PIIM_MR_PARTIAL_FOURIER_PHASE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "Y"
+    },
+    {
+        "ID": 400199,
+        "Name": "RFR_SERIES_PIIM_MR_PATIENT_REFERENCE_ID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 667137948
+    },
+    {
+        "ID": 400200,
+        "Name": "RFR_SERIES_PIIM_MR_PERCENT_SCAN_COMPLETE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 100
+    },
+    {
+        "ID": 400201,
+        "Name": "RFR_SERIES_PIIM_MR_PHASE_ENCODED_RECORDING",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400202,
+        "Name": "RFR_SERIES_PIIM_MR_PHASE_ENCODING_ECHO_TOP_POSITIONS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400203,
+        "Name": "RFR_SERIES_PIIM_MR_PHYSICAL_QUANTITY_FOR_CHEMICAL_SHIFT",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "UNKNOWN"
+    },
+    {
+        "ID": 400204,
+        "Name": "RFR_SERIES_PIIM_MR_PHYSICAL_QUANTITY_SPATIAL",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "UNKNOWN"
+    },
+    {
+        "ID": 400205,
+        "Name": "RFR_SERIES_PIIM_MR_PLAN_SCAN_SURVEY_NUMBER_OF_IMAGES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400206,
+        "Name": "RFR_SERIES_PIIM_MR_REFERENCE_FREQUENCY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400207,
+        "Name": "RFR_SERIES_PIIM_MR_RESPIRATORY_GATING",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400208,
+        "Name": "RFR_SERIES_PIIM_MR_SAMPLE_OFFSET",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400209,
+        "Name": "RFR_SERIES_PIIM_MR_SAMPLE_PITCH",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400210,
+        "Name": "RFR_SERIES_PIIM_MR_SCANO_GRAM_SURVEY_NUMBER_OF_IMAGES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 3
+    },
+    {
+        "ID": 400211,
+        "Name": "RFR_SERIES_PIIM_MR_SEARCH_INTERVAL_FOR_PEAKS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400212,
+        "Name": "RFR_SERIES_PIIM_MR_SEGMENTED_K_SPACE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "Y"
+    },
+    {
+        "ID": 400068,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_ACQUISITION_NUMBER",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 2
+    },
+    {
+        "ID": 400213,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_ACQUISITION_TYPE_PRIVATE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "MS"
+    },
+    {
+        "ID": 400069,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_ARRHYTHMIA_REJECTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400070,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_CARDIAC_CYCLED",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400071,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_CARDIAC_GATE_WIDTH",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400072,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_CARDIAC_SYNC",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NO"
+    },
+    {
+        "ID": 400073,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_DATA_TYPE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "PIXEL"
+    },
+    {
+        "ID": 400074,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_DEVELOPMENT_MODE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "PATCH"
+    },
+    {
+        "ID": 400075,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_DIFFUSION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400076,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_DIFFUSION_ECHO_TIME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400077,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_DYNAMIC_SERIES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400214,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_D_BDT",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": "1.7e+38"
+    },
+    {
+        "ID": 400078,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_ECHO_TRAIN_LENGTH",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 97
+    },
+    {
+        "ID": 400079,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_EPI_FACTOR",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 400080,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_FLIP_ANGLE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 12
+    },
+    {
+        "ID": 400215,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_GEOMETRY_CORRECTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "2D"
+    },
+    {
+        "ID": 400081,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_HARD_COPY_PROTOCOL_EV",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400082,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_IMAGING_FREQUENCY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 127.762726
+    },
+    {
+        "ID": 400083,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_INVERSION_TIME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400216,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_IS_CARDIAC",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400084,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_IS_INTERACTIVE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400043,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_IS_SPECTRO",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400217,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_LOCAL_SAR",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": "1.7e+38"
+    },
+    {
+        "ID": 400085,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_MAGNETIC_FIELD_STRENGTH",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 3
+    },
+    {
+        "ID": 400218,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_NON_PROTON_SAR",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": "1.7e+38"
+    },
+    {
+        "ID": 400086,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_NR_OF_CHEMICAL_SHIFTS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400219,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_NR_OF_DIFF_B_VALUES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 400087,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_NR_OF_DYNAMIC_SCANS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 400088,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_NR_OF_ECHOES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 400089,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_NR_OF_LABEL_TYPES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400090,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_NR_OF_LOCATIONS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 400093,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_NR_OF_PHASES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 400091,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_NR_OF_PHASE_CONTRAST_DIRCTNS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400092,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_NR_OF_PHASE_ENCODING_STEPS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400094,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_NR_OF_SLICES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 400095,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_NR_OF_STACKS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 400096,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_NUMBER_OF_AVERAGES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 400097,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_PARTIAL_MATRIX_SCANNED",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "Y"
+    },
+    {
+        "ID": 400098,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_PC_VELOCITY0",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400099,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_PC_VELOCITY1",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400100,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_PC_VELOCITY2",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400220,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_PLAN_MODE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "MAN"
+    },
+    {
+        "ID": 400101,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_PREPULSE_DELAY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400102,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_PREPULSE_TYPE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NO"
+    },
+    {
+        "ID": 400221,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_PROTON_SAR",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": "1.7e+38"
+    },
+    {
+        "ID": 400103,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_RECONSTRUCTION_NUMBER",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 400104,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_REFORMAT_ACCURACY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400105,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_REPETITION_TIME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 2.897
+    },
+    {
+        "ID": 400106,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_RESPIRATION_SYNC",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NO"
+    },
+    {
+        "ID": 400222,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_SAFETY_OVERRIDE_MODE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400108,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_SCANNING_TECHNIQUE_DESC",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "T1TFE"
+    },
+    {
+        "ID": 400107,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_SCAN_DURATION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0.2930553
+    },
+    {
+        "ID": 400109,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_SEL_PART_INVERSION_RECOVERY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400110,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_SPECTRAL_SELECTIVE_EXCITATION_PULSE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400111,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_TONE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400112,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_TRANSMITTING_COIL",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "B"
+    },
+    {
+        "ID": 400113,
+        "Name": "RFR_SERIES_PIIM_MR_SERIES_WATER_FAT_SHIFT",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0.33361402
+    },
+    {
+        "ID": 400223,
+        "Name": "RFR_SERIES_PIIM_MR_SIGNAL_DOMAIN_FOR_CHEMICAL_SHIFT",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "PRE_FT"
+    },
+    {
+        "ID": 400224,
+        "Name": "RFR_SERIES_PIIM_MR_SIGNAL_DOMAIN_SPATIAL",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "UNKNOWN"
+    },
+    {
+        "ID": 400225,
+        "Name": "RFR_SERIES_PIIM_MR_SIGNAL_TYPE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "FID"
+    },
+    {
+        "ID": 400226,
+        "Name": "RFR_SERIES_PIIM_MR_SPATIAL_PRESATURATION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400227,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_ADDITIONAL_ROTATIONS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "Y"
+    },
+    {
+        "ID": 400228,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_B0_ECHO_TOP_POSITION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400229,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_COMPLEX_COMPONENT",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "REAL"
+    },
+    {
+        "ID": 400230,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_DATA_ORIGIN",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "ORIGINAL"
+    },
+    {
+        "ID": 400231,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_DISPLAY_RANGES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400232,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_ECHO_ACQUISITION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NO"
+    },
+    {
+        "ID": 400233,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_ECHO_TOP_POSITION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 50
+    },
+    {
+        "ID": 400234,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_FREQUENCY_UNIT",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "HERTZ"
+    },
+    {
+        "ID": 400235,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_GAMMA",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400236,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_HIDDEN_LINE_REMOVAL",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "OFF"
+    },
+    {
+        "ID": 400237,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_HORIZONTAL_SHIFT",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400238,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_HORIZONTAL_WINDOW",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400239,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_NUMBER_OF_DISPLAY_RANGES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400240,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_NUMBER_OF_ECHO_PULSES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400241,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_OFFSET",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400242,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_PROCESSING_HISTORY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400243,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_SCAN_TYPE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400246,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_SICS_INTERVALS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400244,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_SI_B0_CORRECTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400245,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_SI_MODE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NO"
+    },
+    {
+        "ID": 400247,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_SPECTRAL_BW",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400248,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_TITLE_LINE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400249,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_TURBO_ECHO_SPACING",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 400250,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_VERTICAL_SHIFT",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400251,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRO_VERTICAL_WINDOW",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400252,
+        "Name": "RFR_SERIES_PIIM_MR_SPECTRUM_PITCH",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400253,
+        "Name": "RFR_SERIES_PIIM_MR_SPOILED",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "Y"
+    },
+    {
+        "ID": 400114,
+        "Name": "RFR_SERIES_PIIM_MR_STACK_VIEW_AXIS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400254,
+        "Name": "RFR_SERIES_PIIM_MR_STATION_NO",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": -1
+    },
+    {
+        "ID": 400255,
+        "Name": "RFR_SERIES_PIIM_MR_STEADY_STATE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400256,
+        "Name": "RFR_SERIES_PIIM_MR_TIME_REVERSED_STEADY_STATE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400257,
+        "Name": "RFR_SERIES_PIIM_MR_VERSION_NUMBER_DELETED_BLOBSETS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400258,
+        "Name": "RFR_SERIES_PIIM_MR_VERSION_NUMBER_DELETED_IMAGES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400259,
+        "Name": "RFR_SERIES_PIIM_MR_VERSION_NUMBER_DELETED_SPECTRA",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400115,
+        "Name": "RFR_SERIES_PIIM_MR_VOLUME_SELECTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NO"
+    },
+    {
+        "ID": 400262,
+        "Name": "RFR_SERIES_PIIM_NUMBER_OF_INVERSION_DELAYS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400050,
+        "Name": "RFR_SERIES_PIIM_PRINT_STATUS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "INITIAL"
+    },
+    {
+        "ID": 400263,
+        "Name": "RFR_SERIES_PIIM_PROCESSING_HISTORY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 400051,
+        "Name": "RFR_SERIES_PIIM_REMOTE_ACTIVITY_STATUS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "INITIAL"
+    },
+    {
+        "ID": 400264,
+        "Name": "RFR_SERIES_PIIM_RT_GENERATED_SERIES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 400265,
+        "Name": "RFR_SERIES_PIIM_SED_VALUE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Float"
+        },
+        "Value": 0.00011347944
+    },
+    {
+        "ID": 400017,
+        "Name": "RFR_SERIES_PIIM_SERIES_COMMITTED",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400266,
+        "Name": "RFR_SERIES_PIIM_SERIES_SCAN_SEQUENCE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "GR"
+    },
+    {
+        "ID": 400018,
+        "Name": "RFR_SERIES_PIIM_SERIES_TRANSMITTED",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400019,
+        "Name": "RFR_SERIES_PIIM_SERIES_TYPE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "MRSERIES"
+    },
+    {
+        "ID": 400267,
+        "Name": "RFR_SERIES_PIIM_SPECTRO_EXAMCARD",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400052,
+        "Name": "RFR_SERIES_PIIM_STORAGE_COMMIT_STATUS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "INITIAL"
+    },
+    {
+        "ID": 400044,
+        "Name": "RFR_SERIES_PIIM_SUITABLE_FOR",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 400269,
+        "Name": "RFR_SERIES_PIIM_VIEWING_HARDCOPY_ONLY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "N"
+    },
+    {
+        "ID": 400268,
+        "Name": "RFR_SERIES_PIIM_VIEW_PROCEDURE_STRING",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "7,IMAGE_TYPE,SLICE_NUMBER,ECHO_NUMBER,PHASE_NUMBER,DYNAMIC_SCAN,CHEMICAL_SHIFT,DIFF_B_VALUE_NO,ASCENDING,NONE,0,0"
+    },
+    {
+        "ID": 400000,
+        "Name": "RFR_SERIES_Patient_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 13829
+    },
+    {
+        "ID": 400007,
+        "Name": "RFR_SERIES_ROW_VERSION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "0x000000000015714A"
+    },
+    {
+        "ID": 400012,
+        "Name": "RFR_SERIES_StreamedBulkLength",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 400001,
+        "Name": "RFR_SERIES_Study_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": 13829
+    },
+    {
+        "ID": 400008,
+        "Name": "RFR_SERIES_TagStorage",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "0x024C0710000088200000100002308000091DB188632827024C38E15FD380010210000000040000008021FFC783416000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006030"
+    },
+    {
+        "ID": 400010,
+        "Name": "RFR_SERIES_TokenName",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "String"
+        },
+        "Value": "FSM1\\Stream\\40015\\faf016aa-2bc6-4bee-bb4e-06c06b88b665.sdo"
+    },
+    {
+        "ID": 400006,
+        "Name": "RFR_SERIES_VERSION_PARENT_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                6
+            ],
+            "Type": "Int"
+        },
+        "Value": -1
+    },
+    {
+        "ID": 200009,
+        "Name": "RFR_STUDY_BinaryLength",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Int"
+        },
+        "Value": 224
+    },
+    {
+        "ID": 200011,
+        "Name": "RFR_STUDY_DICOM_ACCESSION_NUMBER",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200012,
+        "Name": "RFR_STUDY_DICOM_ADMITTING_DIAGNOSES_DESCRIPTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200030,
+        "Name": "RFR_STUDY_DICOM_CLINICAL_TRIAL_TIME_POINT_ID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 200013,
+        "Name": "RFR_STUDY_DICOM_CONTRAST_ALLERGIES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200031,
+        "Name": "RFR_STUDY_DICOM_FILLER_ORDER_NUMBER_IMAGING_SERVICE_REQUEST",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 200032,
+        "Name": "RFR_STUDY_DICOM_IMAGING_SERVICE_REQUEST_COMMENTS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200033,
+        "Name": "RFR_STUDY_DICOM_ISSUE_DATE_OF_IMAGING_SERVICE_REQUEST",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": "20200902"
+    },
+    {
+        "ID": 200034,
+        "Name": "RFR_STUDY_DICOM_ISSUE_TIME_OF_IMAGING_SERVICE_REQUEST",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": "120341.127"
+    },
+    {
+        "ID": 200014,
+        "Name": "RFR_STUDY_DICOM_MEDICAL_ALERTS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200015,
+        "Name": "RFR_STUDY_DICOM_MODALITIES_IN_STUDY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 200050,
+        "Name": "RFR_STUDY_DICOM_MR_STUDY_COMMENTS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200035,
+        "Name": "RFR_STUDY_DICOM_NAMES_OF_INTENDED_RECIPIENTS_OF_RESULTS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 200016,
+        "Name": "RFR_STUDY_DICOM_NUMBER_OF_STUDY_RELATED_INSTANCES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 200017,
+        "Name": "RFR_STUDY_DICOM_NUMBER_OF_STUDY_RELATED_SERIES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 200018,
+        "Name": "RFR_STUDY_DICOM_OCCUPATION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200036,
+        "Name": "RFR_STUDY_DICOM_ORDER_CALLBACK_PHONE_NUMBER",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200037,
+        "Name": "RFR_STUDY_DICOM_ORDER_ENTERERS_LOCATION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200020,
+        "Name": "RFR_STUDY_DICOM_PATIENTS_AGE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 200021,
+        "Name": "RFR_STUDY_DICOM_PATIENTS_SIZE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 200022,
+        "Name": "RFR_STUDY_DICOM_PATIENTS_WEIGHT",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Float"
+        },
+        "Value": 70
+    },
+    {
+        "ID": 200019,
+        "Name": "RFR_STUDY_DICOM_PATIENT_STATE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200038,
+        "Name": "RFR_STUDY_DICOM_PATIENT_TRANSPORT_ARRANGEMENTS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200039,
+        "Name": "RFR_STUDY_DICOM_PLACER_ORDER_NUMBER_IMAGING_SERVICE_REQUEST",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 200023,
+        "Name": "RFR_STUDY_DICOM_PREGNANCY_STATUS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 200040,
+        "Name": "RFR_STUDY_DICOM_REASON_FOR_THE_IMAGING_SERVICE_REQUEST",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200041,
+        "Name": "RFR_STUDY_DICOM_REASON_FOR_THE_REQUESTED_PROCEDURE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200042,
+        "Name": "RFR_STUDY_DICOM_REQUESTED_CONTRAST_AGENT",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200043,
+        "Name": "RFR_STUDY_DICOM_REQUESTED_PROCEDURE_COMMENTS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200044,
+        "Name": "RFR_STUDY_DICOM_REQUESTED_PROCEDURE_DESCRIPTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200045,
+        "Name": "RFR_STUDY_DICOM_REQUESTED_PROCEDURE_ID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200046,
+        "Name": "RFR_STUDY_DICOM_REQUESTED_PROCEDURE_LOCATION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200047,
+        "Name": "RFR_STUDY_DICOM_REQUESTED_PROCEDURE_PRIORITY",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200048,
+        "Name": "RFR_STUDY_DICOM_REQUESTING_PHYSICIAN",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200049,
+        "Name": "RFR_STUDY_DICOM_REQUESTING_SERVICE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200024,
+        "Name": "RFR_STUDY_DICOM_SPECIAL_NEEDS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200025,
+        "Name": "RFR_STUDY_DICOM_STUDY_DATE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": "20200902"
+    },
+    {
+        "ID": 200026,
+        "Name": "RFR_STUDY_DICOM_STUDY_DESCRIPTION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200027,
+        "Name": "RFR_STUDY_DICOM_STUDY_ID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": "630929021"
+    },
+    {
+        "ID": 200028,
+        "Name": "RFR_STUDY_DICOM_STUDY_INSTANCE_UID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": "1.3.46.670589.11.74.5.0.87760.2020090212034112000"
+    },
+    {
+        "ID": 200029,
+        "Name": "RFR_STUDY_DICOM_STUDY_TIME",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": "120341"
+    },
+    {
+        "ID": 200003,
+        "Name": "RFR_STUDY_FILE_REFERENCE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 200007,
+        "Name": "RFR_STUDY_ForeignTags",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": "NULL"
+    },
+    {
+        "ID": 200002,
+        "Name": "RFR_STUDY_LOCKED_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 200000,
+        "Name": "RFR_STUDY_OBJECT_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Int"
+        },
+        "Value": 13829
+    },
+    {
+        "ID": 200001,
+        "Name": "RFR_STUDY_PARENT_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Int"
+        },
+        "Value": 13829
+    },
+    {
+        "ID": 200051,
+        "Name": "RFR_STUDY_PIIM_ADDITIONAL_CONSTRAINTS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200052,
+        "Name": "RFR_STUDY_PIIM_MAX_DB_DT",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 200053,
+        "Name": "RFR_STUDY_PIIM_MAX_SAR",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Float"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 200054,
+        "Name": "RFR_STUDY_PIIM_METAL_IMPLANT_STATUS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": "NONE"
+    },
+    {
+        "ID": 200055,
+        "Name": "RFR_STUDY_PIIM_MR_NR_OF_STUDY_ADMITTING_DIAGNOSTIC_DESCR",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 200056,
+        "Name": "RFR_STUDY_PIIM_MR_NR_OF_STUDY_PATIENT_CONTRAST_ALLERGIES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 200057,
+        "Name": "RFR_STUDY_PIIM_MR_NR_OF_STUDY_PATIENT_MEDICAL_ALERTS",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 200058,
+        "Name": "RFR_STUDY_PIIM_MR_NUMBER_OF_PROCEDURE_CODES",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 200059,
+        "Name": "RFR_STUDY_PIIM_MR_NUMBER_OF_STUDY_REFERENCE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Int"
+        },
+        "Value": 1
+    },
+    {
+        "ID": 200060,
+        "Name": "RFR_STUDY_PIIM_MR_STUDY_ORIGIN",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": "UNKNOWN"
+    },
+    {
+        "ID": 200061,
+        "Name": "RFR_STUDY_PIIM_MR_STUDY_SEQUENCE_NUMBER",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Int"
+        },
+        "Value": -1
+    },
+    {
+        "ID": 200062,
+        "Name": "RFR_STUDY_PIIM_SAR_OPERATION_MODE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": "FIRSTLEVEL"
+    },
+    {
+        "ID": 200063,
+        "Name": "RFR_STUDY_PIIM_SAR_TYPE",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": ""
+    },
+    {
+        "ID": 200064,
+        "Name": "RFR_STUDY_PIIM_SPATIAL_GRADIENT",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 200005,
+        "Name": "RFR_STUDY_ROW_VERSION",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": "0x0000000000157062"
+    },
+    {
+        "ID": 200010,
+        "Name": "RFR_STUDY_StreamedBulkLength",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Int"
+        },
+        "Value": 0
+    },
+    {
+        "ID": 200006,
+        "Name": "RFR_STUDY_TagStorage",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": "0x10081000000004020800000000000000000000"
+    },
+    {
+        "ID": 200008,
+        "Name": "RFR_STUDY_TokenName",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "String"
+        },
+        "Value": "FSM1\\Stream\\bcfa0699-dc53-49c2-be40-0e03fdaa3b65.sdo"
+    },
+    {
+        "ID": 200004,
+        "Name": "RFR_STUDY_VERSION_PARENT_OID",
+        "NameText": "",
+        "Properties": {
+            "Groups": [
+                7
+            ],
+            "Type": "Int"
+        },
+        "Value": -1
+    }
+]
