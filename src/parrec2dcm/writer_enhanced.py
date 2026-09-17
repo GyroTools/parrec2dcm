@@ -97,6 +97,11 @@ def write_enhanced(groups: list[list[Dataset]], out_dir: Path) -> list[Path]:
             sop_instance_uid=sop_instance_uid,
             instance_number=1,
             require_volume=False,
+            # Passing this explicitly stops highdicom's
+            # _add_series_description() from appending its own
+            # " (enhanced conversion)" suffix (it only does so when
+            # SeriesDescription isn't already set on the destination).
+            series_description=datasets[0].get("SeriesDescription"),
         )
         add_temporal_dimension_index(enhanced, datasets)
         fix_volume_stack_pointer(enhanced)

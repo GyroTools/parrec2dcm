@@ -63,13 +63,17 @@ dimension values within a stack) removes the collision, since each stack
 then only contains one contrast's own, internally-unique set of
 (stack position, temporal index) pairs.
 
-Known, accepted limitation: diffusion direction/b-value combined with
-cardiac/dynamic gating is a third, unmodeled dimension here -- two frames
-at the same slice, temporal position, *and* contrast but different
-diffusion directions would still end up with identical
-``DimensionIndexValues`` within their shared stack. This is a pre-existing
-gap (today there's no temporal dimension at all in that case either), not
-addressed by this fix.
+Diffusion direction/b-value combined with cardiac/dynamic gating, or any
+other PAR export where frames sharing one slice, stack, and (nominal)
+temporal position turn out not to be genuinely distinguishable by
+``TemporalPositionIdentifier`` at all (see ``_disambiguate_temporal_positions``
+-- confirmed against a real multi-image T1-mapping export where it wasn't),
+would still end up with identical ``DimensionIndexValues`` within their
+shared stack purely *semantically* (no real per-frame time value to
+declare) -- but ``_disambiguate_temporal_positions`` guarantees they at
+least get distinct index *values*, so every frame stays individually
+addressable via the dimension index even when it doesn't carry a
+meaningful time value.
 """
 
 from __future__ import annotations
@@ -242,6 +246,53 @@ def _stack_positions(frames_source: list[Dataset], stack_ids: list[str] | None =
     return ranks
 
 
+def _disambiguate_temporal_positions(
+    temporal_positions: list[int],
+    stack_ids: list[str],
+    stack_positions: list[int],
+    frames_source: list[Dataset],
+) -> list[int]:
+    """Break ties when several frames at one stack position share one raw temporal value.
+
+    ``TemporalPositionIdentifier`` is derived from ``DynamicScanNumber``/
+    ``CardiacPhaseNumber`` (see geometry.py), but not every PAR/REC export
+    varies either of those between frames that are nonetheless genuinely
+    distinct images: confirmed against a real multi-image T1-mapping export
+    (several magnitude "source" images per slice, feeding a T1 fit), where
+    all 8 magnitude images at a given slice report ``DynamicScanNumber=1``,
+    ``CardiacPhaseNumber=1`` -- every PAR column that could plausibly
+    distinguish them is constant. Left as-is, they'd all collapse onto the
+    same ``DimensionIndexValues`` within their stack (same failure mode
+    ``_group_stack_ids`` exists to prevent across contrasts, just along the
+    temporal axis instead here) -- confirmed 7 of 8 magnitude frames per
+    slice become unaddressable via the dimension index this way, even
+    though all 8 are still physically present in the file.
+
+    Only groups with an actual collision are touched (so a real dynamic/
+    cardiac series with genuinely-varying values is untouched); within a
+    colliding group, frames are re-ranked 1..N by their original PAR
+    acquisition order (``InstanceNumber``, i.e. ``IndexInRecFile + 1`` --
+    stable regardless of any internal reordering highdicom or
+    ``_order_for_contiguous_stacks`` performed), which guarantees
+    uniqueness while preserving relative order. Also incidentally covers
+    the diffusion-direction/b-value-combined-with-gating gap noted in this
+    module's docstring, since that's the same collision shape.
+    """
+    groups: dict[tuple[str, int], list[int]] = {}
+    for i, key in enumerate(zip(stack_ids, stack_positions)):
+        groups.setdefault(key, []).append(i)
+
+    result = list(temporal_positions)
+    for indices in groups.values():
+        values = [temporal_positions[i] for i in indices]
+        if len(set(values)) == len(values):
+            continue  # already unique within this stack position
+        ordered = sorted(indices, key=lambda i: int(frames_source[i].InstanceNumber))
+        for rank, i in enumerate(ordered, start=1):
+            result[i] = rank
+    return result
+
+
 def _is_cardiac_gated(frames_source: list[Dataset]) -> bool:
     """Whether more than one distinct cardiac phase appears in this group.
 
@@ -319,6 +370,9 @@ def add_temporal_dimension_index(enhanced: Dataset, source_datasets: list[Datase
     stack_ids = _group_stack_ids(contrast_keys(frames_source))
     stack_positions = _stack_positions(frames_source, stack_ids)
     temporal_positions = [int(ds.TemporalPositionIdentifier) for ds in frames_source]
+    temporal_positions = _disambiguate_temporal_positions(
+        temporal_positions, stack_ids, stack_positions, frames_source
+    )
     cardiac_gated = _is_cardiac_gated(frames_source)
 
     dimension_organization_uid = generate_uid()

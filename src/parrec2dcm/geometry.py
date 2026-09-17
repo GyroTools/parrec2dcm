@@ -262,8 +262,19 @@ def dynamic_tags_from_parfile(
         "RescaleIntercept": image["RescaleIntercept"],
         "RescaleSlope": image["RescaleSlope"],
         "RescaleType": "normalized",
-        "WindowCenter": image["WindowCenter"],
-        "WindowWidth": image["WindowWidth"],
+        # PAR stores WindowCenter/WindowWidth in the raw stored-pixel domain
+        # (same convention the legacy MATLAB exporter's
+        # dicom_get_dynamic_values_from_parfile, DICOMExporter.m:2187-2188,
+        # copies through as-is). DICOM's WindowCenter/WindowWidth (0028,1050/
+        # 1051) are defined in the *post-rescale* domain (PS3.3 C.11.2.1.2),
+        # so they need converting via this image's own rescale slope/
+        # intercept -- otherwise every image shares one PAR-wide raw window
+        # regardless of contrast, which is wildly wrong whenever a contrast's
+        # rescale differs a lot from the one the window was tuned for (e.g.
+        # a magnitude-tuned window applied to phase/velocity data, whose
+        # rescaled range sits nowhere near the magnitude range).
+        "WindowCenter": image["WindowCenter"] * image["RescaleSlope"] + image["RescaleIntercept"],
+        "WindowWidth": image["WindowWidth"] * image["RescaleSlope"],
         "private:MRImageAngulationAP": angulation[0],
         "private:MRImageAngulationFH": angulation[1],
         "private:MRImageAngulationRL": angulation[2],
